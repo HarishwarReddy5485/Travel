@@ -8,7 +8,7 @@ import uuid
 import random
 
 app = Flask(__name__)
-app.secret_key = 'e7d3b1fe6714c42f4e1cd61cde68d6a202f7f50f9126d9a81db7db6ad3f9c3c6' # IMPORTANT: Change this to a strong, random key in production!
+app.secret_key = 'your_secret_key_here' # IMPORTANT: Change this to a strong, random key in production!
 
 # AWS Setup using IAM Role
 REGION = 'ap-south-1'  # Replace with your actual AWS region
